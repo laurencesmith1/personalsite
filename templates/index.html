@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+<h2>Hello</h2>
+<p>
+    Welcome to my site. I am a programmer and writer from the UK.
+</p>
+<p>I enjoy finding elegant, efficient solutions to problems to help people save time and achieve more. This site is a place to share things I have learnt and demonstrate what I can do.</p>
+<p>I have experience with Python (including Django), Excel/VBA, JavaScript, and essential web technologies such as HTML and CSS.</p>
+<p>I also have several years of experience writing, editing and managing online content for businesses and organisations in several different industries.</p>
+
+
+</p>
+
+{% endblocktrans %}
+{% endblock %}
